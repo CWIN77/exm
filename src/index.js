@@ -6,21 +6,6 @@ import reportWebVitals from './reportWebVitals';
 
 import { HashRouter } from 'react-router-dom'
 
-import firebase from "firebase/app";
-import "firebase/firestore";
-import "firebase/auth";
-
-var firebaseConfig = {
-  apiKey: "AIzaSyC99vcHdawgkUFHzZzGcA6MX6MZCJvkwRI",
-  authDomain: "lcomics.firebaseapp.com",
-  projectId: "lcomics",
-  storageBucket: "lcomics.appspot.com",
-  messagingSenderId: "13178008165",
-  appId: "1:13178008165:web:0a1deb07a99b31d4434c8c"
-};
-firebase.initializeApp(firebaseConfig);
-export default firebase;
-
 
 ReactDOM.render(
   <React.StrictMode>

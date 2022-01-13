@@ -1,6 +1,6 @@
 import './App.scss';
 import React, { useState, useEffect } from 'react';
-import firebase from './index'
+import firebase from '../.firebase'
 import { Link, Route, Switch } from 'react-router-dom';
 
 import { ReactComponent as Img_logo } from './img/logo.svg';
